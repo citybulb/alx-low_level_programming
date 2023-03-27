@@ -9,9 +9,8 @@
  */
 void swap_int(int *a, int *b)
 {
-int a_temp = a;
-int b_temp = b;
-a = b_temp;
-b = a_temp;
-printf("a = %d, b = %d\n", a, b);
+int a_temp = *a;
+int b_temp = *b;
+*a = b_temp;
+*b = a_temp;
 }
