@@ -16,7 +16,7 @@ while (n--)
 {
 *s++ = b;
 }
- 
+
 return (temp);
 
 }
