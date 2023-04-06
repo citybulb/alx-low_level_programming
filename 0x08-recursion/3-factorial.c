@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * factorial - Print the factorial of any given number
  * @n: number to factorize

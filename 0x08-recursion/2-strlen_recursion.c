@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _strlen_recursion - Print the total length of a string
  * @s: string character
