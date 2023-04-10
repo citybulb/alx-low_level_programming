@@ -2,12 +2,12 @@
 #include <ctype.h>
 #include <stdio.h>
 
-/**                                                                                                                                                  
- * main - main function with argc and argv                                                                                                           
- * @argc: argument c in integer                                                                                                                      
- * @argv: pointer array of argument v                                                                                                                
- * Return: 1 if error else 0                                                                                                                                
-*/
+/**
+ * main - main function
+ * @argc: argument count
+ * @argv: pointer array of arguments
+ * Return: 1 if error else 0
+ */
 
 int main(int argc, char *argv[])
 
@@ -24,13 +24,13 @@ if (!(isdigit(argv[argc][i])))
 {
 printf("Error\n");
 return (1);
-
+}
 }
 
 num = atoi(argv[argc]);
 sum += num;
 }
-}
+
 printf("%d\n", sum);
 
 return (0);
