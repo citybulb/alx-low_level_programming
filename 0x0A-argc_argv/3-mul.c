@@ -15,12 +15,19 @@ int main(int argc, char *argv[])
 int i;
 int mul = 1;
 
-if (argc > 1)
+if (argc > 2)
 {
 
 for (i = 1; i < argc; i++)
 mul *= atoi(argv[i]);
 
+}
+
+else if (argc < 2)
+{
+printf("Error\n");
+
+return (1);
 }
 
 printf("%d\n", mul);
