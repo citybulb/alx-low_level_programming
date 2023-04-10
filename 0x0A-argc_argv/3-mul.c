@@ -5,7 +5,7 @@
  * main - main function with argc and argv
  * @argc: argument c in integer
  * @argv: pointer array of argument v
- * Return: Always 0
+ * Return: 1 if there is an error
 */
 
 int main(int argc, char *argv[])
@@ -31,7 +31,5 @@ return (1);
 }
 
 printf("%d\n", mul);
-
-return (0);
 
 }
